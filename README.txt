@@ -1,5 +1,7 @@
 # Pinball
 
+To play "Pinball Game.exe" download full folder
+
 An annotated sample layout.txt file
 
 700 750                     <- game width and height
