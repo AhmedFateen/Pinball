@@ -8,7 +8,6 @@
 // Represents the game interface
 // This class is the ONLY one that interacts with the user
 // This class is also the ONLY one aware of the graphics library being used
-// That is, if the graphics library was to be changes, this class is the only thing to be changed
 class Interface
 {
 private:

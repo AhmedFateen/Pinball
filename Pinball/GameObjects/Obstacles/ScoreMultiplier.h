@@ -16,7 +16,6 @@ class ScoreMultiplier : public Obstacle {
   public:
     ScoreMultiplier(Vector2D center, float radius, unsigned multiplier);
 
-    //Constructor
     void draw(Interface & interface);
 
     Vector2D collideWith(Ball & ball, float collisionTime) override;

@@ -18,7 +18,7 @@ Vector2D SpeedBooster::collideWith(Ball& ball, float collisionTime) {
 		if (distanceToBall - radius < ball.getRadius())
 		{
 
-			return Vector2D { ball.getVelocity() * 0.2f } / collisionTime; // we keep it low because more than one collision is detected 
+			return Vector2D { ball.getVelocity() * 0.2f } / collisionTime;  
 		}
 
 		return { 0,0 }; // if no collision

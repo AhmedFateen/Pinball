@@ -27,7 +27,6 @@ class Flipper : public Drawable, private Collidable {
 
     const float INITIAL_LEFT_FLIPPER_ANGLE=  25.f;
 
-    // No need to take them from user
     const float INITIAL_RIGHT_FLIPPER_ANGLE=  -25.f;
 
     const float MAXIMUM_FLIPPER_ANGLE=  35.f;
@@ -36,7 +35,6 @@ class Flipper : public Drawable, private Collidable {
 
 
   public:
-    // The angle should probably be removed from the constructor after adding the controls ----- removed
     Flipper(FlipperType type, Vector2D center, float length, float majorRadius, float minorRadius);
 
     Vector2D collideWith(Ball & ball, float collisionTime) override;

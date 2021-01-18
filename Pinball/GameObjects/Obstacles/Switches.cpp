@@ -15,7 +15,7 @@ Vector2D Switches::collideWith(Ball& ball, float collisionTime) {
 
 	}
 
-    return Vector2D {0, 0};  // Should be replaced with the actual collision logic
+    return Vector2D {0, 0};  
 }
 
 void Switches::draw(Interface& interface) {

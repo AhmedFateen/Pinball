@@ -18,7 +18,7 @@ void resizeImage(const sf::Image original, sf::Image& resized)
 Interface::Interface()
 {
     sf::ContextSettings settings;
-    settings.antialiasingLevel = 2;  // Remove this line if the game was too laggy //was 8
+    settings.antialiasingLevel = 2;  // Remove this line if the game was too laggy //
     window.create(sf::VideoMode(static_cast<unsigned>(layout.GAME_WIDTH), static_cast<unsigned>(layout.GAME_HEIGHT)), "Pinball", sf::Style::Titlebar, settings);
     window.setVerticalSyncEnabled(true);
 }

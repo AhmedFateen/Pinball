@@ -5,7 +5,6 @@ Ball::Ball(Vector2D center, Vector2D velocity): center(center), velocity(velocit
 }
 
 // Constructor
-// Accessors
 float Ball::getRadius() const {
     return radius;
 }

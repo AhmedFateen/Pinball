@@ -2,7 +2,6 @@
 
 #include "Drawable.h"
 
-// Represents the ball (the single most important object in a Pinball game!)
 class Ball : public Drawable {
   private:
     // Radius of the ball
@@ -18,8 +17,6 @@ class Ball : public Drawable {
   public:
     explicit Ball(Vector2D center = layout.INITIAL_CENTER, Vector2D velocity = layout.INITIAL_VELOCITY);
 
-    // Constructor
-    // Accessors
     float getRadius() const;
 
     Vector2D getCenter() const;

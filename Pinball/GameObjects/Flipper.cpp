@@ -1,7 +1,6 @@
 
 #include "Flipper.h"
 
-// The angle should probably be removed from the constructor after adding the controls ----- removed
 Flipper::Flipper(FlipperType type, Vector2D center, float length, float majorRadius, float minorRadius):
     type(type), center(center), length(length), majorRadius(majorRadius), minorRadius(minorRadius)
 

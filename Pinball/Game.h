@@ -33,7 +33,7 @@ private:
     Interface interface;  // An object representing the game interface
     bool exit, left, right;  // Flags about the user's current controls
 
-    Ball ball;  // The ball (obviously :D)
+    Ball ball;
     Flipper leftFlipper, rightFlipper;  // The right and left flippers
     Score score;
     Obstacle** O= NULL;
