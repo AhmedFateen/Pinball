@@ -5,7 +5,7 @@ To play "Pinball Game.exe" download full folder
 An annotated sample layout.txt file
 
 700 750                     <- game width and height
-10                          <- ball radius
+11                          <- ball radius
 150 20                      <- initial ball position (center)
 -500 20                     <- initial ball velocity
 10 5 50 50                  <- flippers parameters (major radius - minor radius - length distance)
