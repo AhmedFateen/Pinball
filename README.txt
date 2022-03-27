@@ -1,6 +1,5 @@
 # Pinball
 
-To play "Pinball Game.exe" download full folder
 
 An annotated sample layout.txt file
 
